@@ -46,4 +46,4 @@ jobs:
             - name: Output information
               run: |
                   echo "$MONGODB_USERNAME=${{ env.MONGODB_USERNAME }}"
-                  echo "What is the MongoDB db name? Answer: ${{MONGODB_NAME}}"
+                  echo "What is the MongoDB db name? Answer: ${{MONGODB_DB_NAME}}"
